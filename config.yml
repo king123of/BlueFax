@@ -1,0 +1,136 @@
+#
+# CoreBot Config
+#
+
+# Basic Config
+# Bot_Token: -------------- This setting has been removed temporarily. Please put your token in the token.json file in the main folder instead.
+Prefix: "-"
+Color: "#07c5ef"
+Website: "http://bluefox.tech/"
+Store: "http://store.bluefox.tech/"
+Twitter: "http://forums.bluefox.tech/"
+Join_Role: "Member"
+Mute_Role: "Muted"
+BlacklistRole: "Blacklist"
+
+# Required Ranks Config
+Ban_Command: "Mod"
+Clear_Command: "Helper"
+SetStatus_Command: "Admin"
+Say_Command: "Admin"
+Kick_Command: "Mod"
+Staff_Help_Menu: "Staff"
+Announce_Command: "Admin"
+Mute_Command: "Mod"
+SetPrefix_Command: "Admin"
+Update_Command: "Admin"
+Lock_Command: "Admin"
+Unban_Command: "Mod"
+Blacklist_Command: "CEO"
+GiveawayCreate_Command: "Admin"
+GiveawayDelete_Command: "Admin"
+GiveawayReRool_Command: "Admin"
+Prefix_Command: "CEO"
+
+# Channels Config
+Bug_Reports_Channel: "report-bugs"
+Suggestions_Channel: "suggestions"
+Announcements_Channel: "🛎-announcements"
+Updates_Channel: "📁-information"
+Giveaway_Channel: "🎁-giveaways"
+
+# Embed Options Config
+AnnouncementEmbed_Picture: "true"
+AnnouncementEmbed_Footer: "true"
+Join_Message_In_Embed: "true"
+Leave_Message_In_Embed: "true"
+LockEmbed_Special_Color: "true"
+# ^^ Setting it to "true" will make the lock command embed green ^^
+UnlockEmbed_Special_Color: "true"
+# ^^ Setting it to "true" will make the unlock command embed red ^^
+
+#Giveaways Config
+Emoji: ":tada:"
+Emoji_Unicode: "🎉"
+Max_Giveaways: "5"
+Max_Giveaways_Reached: "There is a max of 5 giveaways!"
+
+#Shop Config
+Item_1: "vip"
+Item1_Price: "3500"
+Item1_Role: "vip"
+Item_2: "mvp"
+Item2_Price: "5000"
+Item2_Role: "mvp"
+
+
+
+#
+# Messages Config
+#
+
+
+# Basic Messages
+No_Permission: "You do not have permission to perform this command."
+No_Reason: "Please provide a reason"
+No_User: "Please provide a valid user."
+User_Is_Staff: "You can not punish a staff member."
+User_Is_CoreBot: "How dare you try and ban me. I do not approve of this!"
+User_Is_Yourself: "You can not punish yourself."
+Join_Message: ", welcome to the server!"
+Leave_Message: ", has left the server!"
+No_Message_To_Say: "Please provide text for the bot to say!"
+#^^ For the say command ^^
+No_Amount_Of_Messages_To_Clear: "Please provide the amount of messages to delete." 
+#^^ For the clear command ^^
+
+# Announcement Command
+No_Announcement_Message_Found: "Please provide a message to announce."
+AnnounceEmbed_Footer: "Server's Announcements"
+AnnouncementEmbed_Title: "Announcements"
+
+# IP Command 
+Server_IP: "play.bluefox.tech"
+IPEmbed_Title: "Server IP"
+
+# Bug Report Command
+BugReportEmbed_Footer: "Use the bugreport command to report any bugs you've found on the server"
+No_Bug_Found: "Please inform us of the bug."
+BugReported_Reply_Message: "Thanks for reporting the bug!"
+BugReport_Cooldown_Message: "Please wait 5 minutes before reporting another bug."
+
+# Suggestion Command
+SuggestionEmbed_Footer: "Use the suggest command to suggest an idea for the server!"
+No_Suggestion_Found: "Please inform us of the suggestion."
+Suggestion_Made_Reply_Message: "Your suggestion has been added!"
+Suggestion_Cooldown_Message: "Please wait 15 minutes before adding another suggestion!"
+
+#Shop/Buy Command
+Not_Enough_Coins: "You do not have enough coins for that item!"
+ShopEmbed_Title: "BlueFox Role Shop"
+ShopEmbed_Item1_SubTitle: "MVP RANK"
+ShopEmbed_Item1_Description: "Cost - 5000 coins (Use -buy mvp to buy!)"
+ShopEmbed_Item2_SubTitle: "VIP RANK"
+ShopEmbed_Item2_Description: "Cost - 3500 coins (Use -buy vip to buy!)"
+
+# Ticket System
+User_Ticket_Limit: 5
+Ticket_Support_Role: "Support Team"
+# Use {user} to mention the user in the embed description
+New_Ticket_Embed_Description: "{user}, Hello! Please try explain why you opened this ticket with as much detail as possible. Our **Support Team** will be here soon to help."
+New_Ticket_Embed_Footer: "Ticket System"
+New_Ticket_Embed_Color: "#07c5ef"
+
+#
+# Status Config
+#
+
+
+Server_Name: "BlueFox"
+Gamemode_Name_One: "SkyBlock Islands"
+Gamemode_One_URL: "https://api.minetools.eu/ping/play.example.com/25565"
+Gamemode_One_Query_URL: "https://api.minetools.eu/ping/play.example.com/25565"
+Gamemode_1_url: "https://api.minetools.eu/ping/play.example.com/25565"
+
+#DO NOT CHANGE THIS!
+BOT_VERSION: "2.4"
